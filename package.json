@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "description": "Página onde reúno meus projetos de desenvolvimento e ciência de dados.",
   "main": "index.js",
-  "type": "module",
+
   "scripts": {
     "start": "node index",
     "dev": "nodemon index"
   },
+  "type": "module",
   "author": "Luiz Renato Sassi",
   "license": "ISC",
   "dependencies": {
