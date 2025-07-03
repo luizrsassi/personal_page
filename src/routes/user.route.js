@@ -1,8 +1,8 @@
 import express from 'express';
-import { soma } from '../controllers/user.controller.js';
+import { create } from '../controllers/user.controller.js';
 
 const route = express.Router();
 
-route.get("/", soma);
+route.post("/", create);
 
 export default route;

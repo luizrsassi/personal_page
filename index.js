@@ -3,6 +3,8 @@ import userRoute from './src/routes/user.route.js'
 
 const app = express();
 
-app.use("/soma", userRoute);
+const PORT = 3000;
+app.use(express.json());
+app.use("/user", userRoute);
 
-app.listen(3000);
+app.listen(PORT, () => console.log(`Servidor rodando na porta ${PORT}`));
